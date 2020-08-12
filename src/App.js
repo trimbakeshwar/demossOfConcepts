@@ -4,14 +4,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import AsyncDemo from "./components/asyncAwait"
 import promisesCompo from "./components/promises"
+import contextdemo from "./components/contextdemo"
 function App() {
   return (
     <Router>
     <div className="App">
       <Route exact path="/promises" component={promisesCompo}/> 
-      <Route exact path="/asyncAwait" component={AsyncDemo}/> 
+      <Route exact path="/contextdemo" component={contextdemo}/> 
     </div>
     </Router>
   );
